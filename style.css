@@ -5,7 +5,13 @@ body{
 h1{
     font-size: 60px;
 }
+h2{
+    font-size: 40px;
+}
 .My-name{
+    color: orange;
+}
+.orange-color{
     color: orange;
 }
 .flexible-container{
@@ -34,4 +40,30 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiance-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 40px green;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, green);
+    border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
